@@ -55,6 +55,31 @@ The program operates through the following main steps:
     * The optimal tour path (sequence of cities).
     * The program also allows users to save the result to a file.
 
+## 📝 Program Structure
+```
+.
+├── Cargo.lock
+├── Cargo.toml
+├── LICENSE
+├── README.md
+├── src
+│   ├── component.rs
+│   ├── graph.rs
+│   ├── input.rs
+│   ├── main.rs
+│   ├── output.rs
+│   └── solver.rs
+└── test
+    ├── input1.txt
+    ├── input2.txt
+    ├── input3.txt
+    ├── result1.txt
+    └── result2.txt
+
+3 directories, 15 files
+```
+
+
 ## 🚀 How to Use
 
 1.  **Prerequisites**:
@@ -147,6 +172,11 @@ INF 5 0 8
 ```
 
 ### Output
-1. ![Image](https://github.com/user-attachments/assets/dee33917-bd58-4c26-9b53-086db5c6c6c1)
-2. ![Image](https://github.com/user-attachments/assets/13b6c8d8-4d6f-487a-9799-6bc7043343e4)
-3. ![Image](https://github.com/user-attachments/assets/7ab358ad-4756-44ab-acbb-5047d8a84a96)
+1. 
+<img src="https://github.com/user-attachments/assets/dee33917-bd58-4c26-9b53-086db5c6c6c1" width="300" alt="Image 1">
+
+2. 
+<img src="https://github.com/user-attachments/assets/13b6c8d8-4d6f-487a-9799-6bc7043343e4" width="300" alt="Image 2">
+
+3. 
+<img src="https://github.com/user-attachments/assets/7ab358ad-4756-44ab-acbb-5047d8a84a96" width="300" alt="Image 3">
