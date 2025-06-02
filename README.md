@@ -173,10 +173,10 @@ INF 5 0 8
 
 ### Output
 1. 
-<img src="https://github.com/user-attachments/assets/dee33917-bd58-4c26-9b53-086db5c6c6c1" width="300" alt="Image 1">
+<img src="https://github.com/user-attachments/assets/dee33917-bd58-4c26-9b53-086db5c6c6c1" width="400" alt="Image 1">
 
 2. 
-<img src="https://github.com/user-attachments/assets/13b6c8d8-4d6f-487a-9799-6bc7043343e4" width="300" alt="Image 2">
+<img src="https://github.com/user-attachments/assets/13b6c8d8-4d6f-487a-9799-6bc7043343e4" width="400" alt="Image 2">
 
 3. 
-<img src="https://github.com/user-attachments/assets/7ab358ad-4756-44ab-acbb-5047d8a84a96" width="300" alt="Image 3">
+<img src="https://github.com/user-attachments/assets/7ab358ad-4756-44ab-acbb-5047d8a84a96" width="400" alt="Image 3">
