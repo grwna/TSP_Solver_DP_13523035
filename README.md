@@ -63,31 +63,19 @@ The program operates through the following main steps:
 2.  **Compilation**:
     * Clone the repository:
         ```
-        
+        git clone https://github.com/grwna/TSP_Solver_DP_13523035.git
+                                or
+        git clone git@github.com:grwna/TSP_Solver_DP_13523035.git
         ```
-    * Navigate to the project's root directory in your terminal.
+    * Navigate to the project's root directory.
     * Compile the program using Cargo:
         ```bash
         cargo build
         ```
-        For an optimized release build:
-        ```bash
-        cargo build --release
-        ```
-
 3.  **Running the Program**:
-    * Run the compiled executable. If you used `cargo build --release`, the executable will be in `target/release/`. Otherwise, it's in `target/debug/`.
-        ```bash
-        # For release build
-        ./target/release/your_project_name
-        # For debug build
-        ./target/debug/your_project_name
-        ```
-        (Replace `your_project_name` with the actual name of your executable, usually the name of your crate/project).
-    * Alternatively, you can run directly using Cargo:
-        ```bash
+      ```bash
         cargo run
-        ```
+      ```        
 
 4.  **Interacting with the Program**:
     * Upon running, a menu will be displayed:
@@ -102,10 +90,9 @@ The program operates through the following main steps:
           2. Enter Adjacency Matrix Manually
           3. Solve TSP (requires graph to be loaded)
           4. View Current Graph (if loaded)
-          5. Save Current Graph to File (if loaded)
-          6. Exit
+          5. Exit
 
-        Enter your choice (1-6): _
+        Enter your choice (1-5): _
         ```
     * **Option 1 (Load from File)**:
         * Prompts for a filename (e.g., `matrix.txt`).
@@ -127,11 +114,39 @@ The program operates through the following main steps:
         * Asks if you want to save the solution to a file.
     * **Option 4 (View Graph)**:
         * Displays the currently loaded adjacency matrix on the console.
-    * **Option 5 (Save Graph to File)**:
-        * Asks for a filename and saves the current adjacency matrix to that file in the same format used for input.
-    * **Option 6 (Exit)**: Exits the program.
+    * **Option 5 (Exit)**: Exits the program.
 
-## 📸 Screenshot(s) of Input/Output
-
-*Replace this section with your screenshot(s). You can use Markdown image syntax:*
+## 📸 Input/Output Examples
+### Input
+1. 
 ```markdown
+4
+0 10 15 20
+10 0 35 25
+15 35 0 30
+20 25 30 0
+```
+
+2.
+```
+4
+0 10 INF 12
+10 0 5 INF
+INF 5 0 8
+12 INF 8 0
+```
+
+3.
+```
+5
+0  3 20 12  7
+4  0  5 18 10
+18 6  0  4  9
+10 15 3  0  8
+8 11  7  9  0
+```
+
+### Output
+1. ![Image](https://github.com/user-attachments/assets/dee33917-bd58-4c26-9b53-086db5c6c6c1)
+2. ![Image](https://github.com/user-attachments/assets/13b6c8d8-4d6f-487a-9799-6bc7043343e4)
+3. ![Image](https://github.com/user-attachments/assets/7ab358ad-4756-44ab-acbb-5047d8a84a96)
